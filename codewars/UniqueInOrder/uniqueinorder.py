@@ -22,6 +22,4 @@ def unique_in_order(strDuplicates):
   return lstFinal
 
 
-
-
 print(unique_in_order('AAAABBBCCDAABBB'))
