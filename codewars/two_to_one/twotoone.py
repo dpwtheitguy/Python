@@ -25,4 +25,4 @@ def longest(s1, s2):
 # Examples:
 a = "xyaabbbccccdefww"
 b = "xxxxyyyyabklmopq"
-print(longest(a, a)) 
+print(longest(a, b)) 
