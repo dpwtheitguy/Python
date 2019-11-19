@@ -27,22 +27,9 @@ title_case('the quick brown fox') # should return: 'The Quick Brown Fox'
 
 def title_case(title, minor_words):
     final = ""
-    # Correct the case of the title
-    lsttitle = list(title.lower())
-    lsttitle[0] = lsttitle[0].upper()
-    title = "".join(lsttitle)
-
-    #break minor words into a list
     lstMinorwords = minor_words.split(' ')
-    lsttitlewords = title.split(' ')
-            
-    for word in lsttitlewords:
-        if word not in lstMinorwords:
-            lstword = list(word)
-            lstword[0] = lstword[0].upper()
-            final = final + str("".join(lsttitle))
-    print(final)
-    return title
+    print(lstMinorwords)
 
+    return title
 
 print(title_case('a clash of KINGS', 'a an the of'))
